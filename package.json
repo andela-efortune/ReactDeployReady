@@ -4,7 +4,10 @@
   "description": "for learning purpose",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production webpack --progress && NODE_ENV=production node server.js",
+    "dev": "webpack-dev-server --progress --colors --watch",
+    "build": "webpack --progress --watch"
   },
   "repository": {
     "type": "git",
@@ -26,7 +29,7 @@
     "babel-loader": "*",
     "babel-preset-es2015": "*",
     "babel-preset-react": "*",
-    "copy-webpack-plugin": "*",
+    "copy-webpack-plugin": "^1.1.1",
     "css-loader": "*",
     "extract-text-webpack-plugin": "*",
     "image-webpack-loader": "*",
@@ -39,6 +42,6 @@
     "react": "*",
     "react-dom": "*",
     "webpack": "*",
-    "webpack-dev-server": "*"
+    "webpack-dev-server": "^1.14.1"
   }
 }
