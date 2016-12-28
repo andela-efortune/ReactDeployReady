@@ -19,5 +19,26 @@
   "bugs": {
     "url": "https://github.com/andela-efortune/ReactDeployReady/issues"
   },
-  "homepage": "https://github.com/andela-efortune/ReactDeployReady#readme"
+  "homepage": "https://github.com/andela-efortune/ReactDeployReady#readme",
+
+  "dependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "copy-webpack-plugin": "*",
+    "css-loader": "*",
+    "extract-text-webpack-plugin": "*",
+    "image-webpack-loader": "*",
+    "json-loader": "*",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "koa": "*",
+    "koa-convert": "*",
+    "koa-static": "*",
+    "react": "*",
+    "react-dom": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  }
 }
