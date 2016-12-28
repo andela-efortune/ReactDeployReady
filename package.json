@@ -1,0 +1,23 @@
+{
+  "name": "react-deploy-ready",
+  "version": "1.0.0",
+  "description": "for learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-efortune/ReactDeployReady.git"
+  },
+  "keywords": [
+    "ReactJs",
+    "webpack"
+  ],
+  "author": "Fortune Ekeruo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-efortune/ReactDeployReady/issues"
+  },
+  "homepage": "https://github.com/andela-efortune/ReactDeployReady#readme"
+}
